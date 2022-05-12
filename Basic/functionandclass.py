@@ -20,8 +20,18 @@ class functional:
         j=20
         k=i*j
         print(k)
+    def reverseaString(self):
+        name="sathish"
+        charvalue=[char for char in name]
+        length=len(charvalue)
+        print(charvalue)
+        print(length)
+        for i in range(length):
+            i=length-1
+            if(length>=0):
+                print(charvalue[i])
+                length=length-1
 
-"""obj = functional()
-obj.firstmethod(4,5)
-#mulmethod()
-obj.submethod()"""
+
+obj = functional()
+obj.reverseaString()
